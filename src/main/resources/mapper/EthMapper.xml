@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scdy.comprehensiveinsurance.dao.EthMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.scdy.comprehensiveinsurance.entity.EthEntity">
+        <id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="eth_name" property="ethName" />
+        <result column="target_ip" property="targetIp" />
+        <result column="target_port" property="targetPort" />
+        <result column="local_port" property="localPort" />
+        <result column="sensor_model" property="sensorModel" />
+        <result column="device_address" property="deviceAddress" />
+        <result column="install_postion" property="installPostion" />
+        <result column="tag" property="tag" />
+
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, create_time, update_time, is_deleted, eth_name, target_ip, target_port, local_port, sensor_model, device_address,install_postion,tag
+    </sql>
+
+</mapper>

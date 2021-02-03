@@ -1,0 +1,122 @@
+二月 03, 2021 3:56:11 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [D:\project\comprehensiveinsurance\src\main\java\]
+二月 03, 2021 3:56:11 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+二月 03, 2021 3:56:11 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\project\comprehensiveinsurance\src\main\java\
+二月 03, 2021 3:56:13 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : ComCtroller.java
+二月 03, 2021 3:56:13 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : EthController.java
+二月 03, 2021 3:56:13 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : IndexController.java
+二月 03, 2021 3:56:13 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : MqttController.java
+二月 03, 2021 3:56:13 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : ComCtroller.java
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : ComCtroller.java
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : EthController.java
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:14 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\response\ResponseData.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : EthController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : IndexController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : IndexController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : MqttController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : MqttController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\ComCtroller.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\ComCtroller.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\EthController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\EthController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\IndexController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\IndexController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\MqttController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\comprehensiveinsurance\src\main\java\com\scdy\comprehensiveinsurance\controller\MqttController.java
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+二月 03, 2021 3:56:15 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!

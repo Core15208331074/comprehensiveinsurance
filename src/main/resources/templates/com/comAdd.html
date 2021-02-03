@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>串口添加</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script src="/layui/layui.js"></script>
+
+</head>
+<body class="layui-layout-body">
+<form class="layui-form" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label">串口</label>
+        <div class="layui-input-block">
+            <select name="serialPortName" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">波特率</label>
+        <div class="layui-input-block">
+            <select name="baudRate" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">数据位</label>
+        <div class="layui-input-block">
+            <select name="dataBit" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">停止位</label>
+        <div class="layui-input-block">
+            <select name="stopBit" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">校验位</label>
+        <div class="layui-input-block">
+            <select name="checkDigit" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">传感器型号</label>
+        <div class="layui-input-block">
+            <select name="sensorModel" lay-verify="required">
+                <option value=""></option>
+<!--                <option value="0">COM1</option>-->
+<!--                <option value="1">COM2</option>-->
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">设备地址</label>
+        <div class="layui-input-block">
+            <input type="text" name="deviceAddress" required lay-verify="required" placeholder="请输入设备地址" autocomplete="off"
+                   class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="comFormAdd">添加</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    layui.config({
+        base: '../js/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use('comAdd'); //加载入口
+
+
+</script>
+</body>
+</html>
+      

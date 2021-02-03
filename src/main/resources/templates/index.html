@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>layout 后台大布局 - Layui</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script src="/layui/layui.js"></script>
+
+</head>
+<body class="layui-layout-body">
+<div class="layui-tab layui-tab-card site-demo-button" style="position: relative;">
+    <ul class="layui-nav layui-nav-tree layui-nav-side">
+        <li class="layui-nav-item layui-nav-itemed">
+            <a href="javascript:;">规约转换</a>
+            <dl class="layui-nav-child">
+                <dd>
+                    <a data-url="com/toIndex" data-id="11" data-title="串口" href="#" class="site-demo-active"
+                       data-type="tabAdd">串口</a>
+                </dd>
+                <dd>
+                    <a data-url="b" data-id="22" data-title="其他" href="#" class="site-demo-active"
+                       data-type="tabAdd">其他</a>
+                </dd>
+                <!--                <dd>-->
+                <!--                    <a href="">跳转</a>-->
+                <!--                </dd>-->
+            </dl>
+        </li>
+        <!--        <li class="layui-nav-item">-->
+        <!--            <a href="javascript:;">解决方案</a>-->
+        <!--            <dl class="layui-nav-child">-->
+        <!--                <dd>-->
+        <!--                    <a href="">移动模块</a>-->
+        <!--                </dd>-->
+        <!--                <dd>-->
+        <!--                    <a href="">后台模版</a>-->
+        <!--                </dd>-->
+        <!--                <dd>-->
+        <!--                    <a href="">电商平台</a>-->
+        <!--                </dd>-->
+        <!--            </dl>-->
+        <!--        </li>-->
+        <!--        <li class="layui-nav-item">-->
+        <!--            <a href="#" data-url="c" data-title="选项c"  data-id="33" class="site-demo-active" data-type="tabAdd">产品c</a>-->
+        <!--        </li>-->
+        <!--        <li class="layui-nav-item">-->
+        <!--            <a href="#" data-url="a" data-title="选项a"  data-id="11" class="site-demo-active" data-type="tabAdd">产品a</a>-->
+        <!--        </li>-->
+        <!--        <li class="layui-nav-item">-->
+        <!--            <a href="">大数据</a>-->
+        <!--        </li>-->
+    </ul>
+
+    <div class="layui-tab" lay-filter="demo" lay-allowclose="true" style="margin-left: 200px;">
+        <ul class="layui-tab-title">
+        </ul>
+        <ul class="rightmenu" style="display: none;position: absolute;">
+            <li data-type="closethis">关闭当前</li>
+            <li data-type="closeall">关闭所有</li>
+        </ul>
+        <div class="layui-tab-content">
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    layui.config({
+        base: '../js/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use('index'); //加载入口
+</script>
+</body>
+</html>
+      

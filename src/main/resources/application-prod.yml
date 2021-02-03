@@ -1,0 +1,39 @@
+spring:
+  influx: #时序数据库
+    url: http://172.17.0.1:8086?tz=Asia/Shanghai
+    database: comprehensiveinsurance
+    user: root
+    password: 123456
+    rpName: rp_30_days
+    duration: 30d #infludb数据保存30天自动删除
+    replicationFactor: 1
+
+
+  datasource: #mybatisplus数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.17.0.1:3306/comprehensiveinsurance?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+server:
+  port: 8080
+
+#mqtt
+mqtt:
+  host: tcp://172.17.0.1:1883
+  clientinid: protocol_conversion_web_subscriber
+  clientoutid: protocol_conversion_web_publisher
+  topic: /v1/protocol_conversion_web/devices/datas/down
+  qoslevel: 1
+  #MQTT 认证
+  username:  admin
+  password: admin
+  # 10s
+  timeout: 10000
+  #20s
+  keepalive: 20
+  filter: 环控灯光照明, 03温湿度I-5, 03温湿度6-10, 03消防
+
+
+device: #设备超过多少分钟表示离线状态
+  disconnect:
+    time: 5

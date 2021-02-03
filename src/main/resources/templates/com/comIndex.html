@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>串口</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script src="/layui/layui.js"></script>
+
+</head>
+<body class="layui-layout-body">
+
+<div class="site-demo-button" id="layerDemo" style="margin-bottom: 0;">
+    <button data-method="offset" data-type="auto" class="layui-btn layui-btn-normal">添加</button>
+</div>
+
+<table id="demo" lay-filter="test"></table>
+
+<script>
+    layui.config({
+        base: '../js/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use('comIndex'); //加载入口
+
+
+</script>
+</body>
+</html>
+      

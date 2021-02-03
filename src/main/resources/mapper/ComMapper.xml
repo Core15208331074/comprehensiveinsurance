@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scdy.comprehensiveinsurance.dao.ComMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.scdy.comprehensiveinsurance.entity.ComEntity">
+        <id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="serial_port_name" property="serialPortName" />
+        <result column="baud_rate" property="baudRate" />
+        <result column="data_bit" property="dataBit" />
+        <result column="stop_bit" property="stopBit" />
+        <result column="check_digit" property="checkDigit" />
+        <result column="sensor_model" property="sensorModel" />
+        <result column="device_address" property="deviceAddress" />
+        <result column="install_postion" property="installPostion" />
+        <result column="tag" property="tag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, create_time, update_time, is_deleted, serial_port_name, baud_rate, data_bit, stop_bit, check_digit, sensor_model, device_address,install_postion,tag
+    </sql>
+
+</mapper>

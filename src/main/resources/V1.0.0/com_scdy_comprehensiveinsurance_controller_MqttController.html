@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MqttController</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="PR.prettyPrint()">
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                comprehensiveinsurance
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/YeDaxia/JApiDocs" target="_blank">GitHub</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">V1.0.0<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                            <li><a href="../2021.01.15_comprehensiveinsurancetag修改前.sql/index.html">2021.01.15_comprehensiveinsurancetag修改前.sql</a></li>
+                            <li><a href="../2021.02.02_comprehensiveinsurance.sql/index.html">2021.02.02_comprehensiveinsurance.sql</a></li>
+                            <li><a href="../application-dev.yml/index.html">application-dev.yml</a></li>
+                            <li><a href="../application-prod.yml/index.html">application-prod.yml</a></li>
+                            <li><a href="../application.yml/index.html">application.yml</a></li>
+                            <li><a href="../Dockerfile/index.html">Dockerfile</a></li>
+                            <li><a href="../logback-spring.xml/index.html">logback-spring.xml</a></li>
+                            <li><a href="../mapper/index.html">mapper</a></li>
+                            <li><a href="../mfz-rxtx-2.2-20081207-linux-i386.zip/index.html">mfz-rxtx-2.2-20081207-linux-i386.zip</a></li>
+                            <li><a href="../mfz-rxtx-2.2-20081207-linux-x86_64.zip/index.html">mfz-rxtx-2.2-20081207-linux-x86_64.zip</a></li>
+                            <li><a href="../mfz-rxtx-2.2-20081207-win-x64/index.html">mfz-rxtx-2.2-20081207-win-x64</a></li>
+                            <li><a href="../mfz-rxtx-2.2-20081207-win-x64.zip/index.html">mfz-rxtx-2.2-20081207-win-x64.zip</a></li>
+                            <li><a href="../rxtx-2.2pre2-bins.zip/index.html">rxtx-2.2pre2-bins.zip</a></li>
+                            <li><a href="../static/index.html">static</a></li>
+                            <li><a href="../templates/index.html">templates</a></li>
+                            <li><a href="../驱动使用说明.docx/index.html">驱动使用说明.docx</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="book with-summary">
+    <div class="book-summary">
+<div class="search-box form-group">
+    <input type="text" class="form-control" id="inputSearch" placeholder="搜索接口">
+    <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+</div>
+<div id="accordion" class="catalog">
+        <div class="panel">
+            <div id="heading0" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse0" aria-controls="collapse0">
+                <i class="glyphicon glyphicon-align-justify"></i> ComCtroller
+            </div>
+            <div id="collapse0" class="collapse in " aria-labelledby="heading0">
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getSensorPageData">
+                        com传感器产生的所有数据
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getSensorRealtimeDataByComId">
+                        com传感器实时数据
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#findAllSensorModel">
+                        查看时序数据库里面所有数据
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#startOrStopComById">
+                        操作com传感器
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#delComDataById">
+                        删除com传感器
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getComDataList">
+                        com传感器列表
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getComConfigData">
+                        com传感器配置
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_ComCtroller.html#comDataAdd">
+                        添加com传感器
+                    </a>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="heading1" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse1" aria-controls="collapse1">
+                <i class="glyphicon glyphicon-align-justify"></i> eth控制层
+            </div>
+            <div id="collapse1" class="collapse " aria-labelledby="heading1">
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#lightingControl">
+                        eth 环控(利通)照明控制
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#clothRemovalSet">
+                        eth布撤防设置
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#getSensorDataPage">
+                        eth传感器产生的所有数据
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#getRealtimeData">
+                        eth传感器的实时数据
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#isStartById">
+                        操作eth传感器
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#getEthList">
+                        eth传感器列表
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#delEthById">
+                        删除eth传感器
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#saveEth">
+                        添加eth传感器
+                    </a>
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_EthController.html#getConfig">
+                        eth传感器配置
+                    </a>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="heading2" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse2" aria-controls="collapse2">
+                <i class="glyphicon glyphicon-align-justify"></i> IndexController
+            </div>
+            <div id="collapse2" class="collapse " aria-labelledby="heading2">
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_IndexController.html#index">
+                        跳转到首页
+                    </a>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="heading3" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse3" aria-controls="collapse3">
+                <i class="glyphicon glyphicon-align-justify"></i> MqttController
+            </div>
+            <div id="collapse3" class="collapse in " aria-labelledby="heading3">
+                    <a class="catalog-item" href="com_scdy_comprehensiveinsurance_controller_MqttController.html#sendMsgToMqtt">
+                        发送消息到MQTT
+                    </a>
+            </div>
+        </div>
+</div>    </div>
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+                <div class="d-flex justify-content-between">
+                    <a class="header-menu toggle-catalog" href="javascript:void(0)"><i
+                            class="glyphicon glyphicon-align-justify"></i> 目录</a>
+                </div>
+            </div>
+            <div class="page-wrapper">
+                <div class="page-inner">
+                    <div class="action-list">
+                        <div class="action-item">
+<h2 id="sendMsgToMqtt"><a href="#">发送消息到MQTT </a></h2>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>mqtt/sendMsgToMqtt</code>
+        <span class="label label-default">POST</span>
+</p>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{}</pre>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+<script>
+
+    var search_source_data = [
+            {name: 'ComCtroller.com传感器产生的所有数据', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getSensorPageData'},
+            {name: 'ComCtroller.com传感器实时数据', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getSensorRealtimeDataByComId'},
+            {name: 'ComCtroller.查看时序数据库里面所有数据', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#findAllSensorModel'},
+            {name: 'ComCtroller.操作com传感器', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#startOrStopComById'},
+            {name: 'ComCtroller.删除com传感器', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#delComDataById'},
+            {name: 'ComCtroller.com传感器列表', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getComDataList'},
+            {name: 'ComCtroller.com传感器配置', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#getComConfigData'},
+            {name: 'ComCtroller.添加com传感器', url: 'com_scdy_comprehensiveinsurance_controller_ComCtroller.html#comDataAdd'},
+            {name: 'eth控制层.eth 环控(利通)照明控制', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#lightingControl'},
+            {name: 'eth控制层.eth布撤防设置', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#clothRemovalSet'},
+            {name: 'eth控制层.eth传感器产生的所有数据', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#getSensorDataPage'},
+            {name: 'eth控制层.eth传感器的实时数据', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#getRealtimeData'},
+            {name: 'eth控制层.操作eth传感器', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#isStartById'},
+            {name: 'eth控制层.eth传感器列表', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#getEthList'},
+            {name: 'eth控制层.删除eth传感器', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#delEthById'},
+            {name: 'eth控制层.添加eth传感器', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#saveEth'},
+            {name: 'eth控制层.eth传感器配置', url: 'com_scdy_comprehensiveinsurance_controller_EthController.html#getConfig'},
+            {name: 'IndexController.跳转到首页', url: 'com_scdy_comprehensiveinsurance_controller_IndexController.html#index'},
+            {name: 'MqttController.发送消息到MQTT', url: 'com_scdy_comprehensiveinsurance_controller_MqttController.html#sendMsgToMqtt'},
+    ];
+
+
+
+    $('.toggle-catalog').click(function () {
+        $('.book').toggleClass('with-summary');
+    });
+
+    $('#inputSearch').autocomplete({hint: false}, [
+        {
+            source: function (query, callback) {
+                var result = [];
+                for(var i = 0; i !== search_source_data.length; i++){
+                    if(search_source_data[i].name.indexOf(query) !== -1){
+                        result.push(search_source_data[i]);
+                    }
+                }
+                callback(result);
+            },
+            displayKey: 'name',
+            templates: {
+                suggestion: function (suggestion) {
+                    return suggestion.name;
+                }
+            }
+        }
+    ]).on('autocomplete:selected', function (event, suggestion, dataset, context) {
+        self.location = suggestion.url;
+    });
+</script>
+</body>
+</html>
